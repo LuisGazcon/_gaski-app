@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			"@/*": ["source/*"],
+			"@app/*": ["source/app/*"],
+			"@components/*": ["source/components/*"],
+			"@modules/*": ["source/modules/*"],
+			"@services/*": ["source/services/*"],
+			"@global/*": ["source/global/*"],
+			"@core/*": ["source/core/*"],
+			"@context/*": ["source/context/*"],
+			"@resources/*": ["source/resources/*"]
+		}
+	},
+	"exclude": ["node_modules", "build"]
+}

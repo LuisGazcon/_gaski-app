@@ -1,0 +1,59 @@
+{
+	"short_name": "Gaski",
+	"name": "Gaski",
+	"description": "Gaski Progressive Web Application",
+	"icons": [
+		{
+			"src": "/images/icons/20.png",
+			"type": "image/png",
+			"sizes": "20x20"
+		},
+		{
+			"src": "/images/icons/29.png",
+			"type": "image/png",
+			"sizes": "29x29"
+		},
+		{
+			"src": "/images/icons/40.png",
+			"type": "image/png",
+			"sizes": "40x40"
+		},
+		{
+			"src": "/images/icons/50.png",
+			"type": "image/png",
+			"sizes": "50x50"
+		},
+		{
+			"src": "/images/icons/60.png",
+			"type": "image/png",
+			"sizes": "60x60"
+		},
+		{
+			"src": "/images/icons/72.png",
+			"type": "image/png",
+			"sizes": "72x72"
+		},
+		{
+			"src": "/images/icons/144.png",
+			"type": "image/png",
+			"sizes": "144x144"
+		},
+		{
+			"src": "/images/icons/180.png",
+			"type": "image/png",
+			"sizes": "180x180"
+		},
+		{
+			"src": "/images/icons/1024.png",
+			"type": "image/png",
+			"sizes": "1024x1024"
+		}
+	],
+	"start_url": "/",
+	"scope": "/",
+	"background_color": "#000000",
+	"display": "fullscreen",
+	"display_override": ["standalone"],
+	"orientation": "portrait-primary",
+	"theme_color": "#0055ff"
+}
