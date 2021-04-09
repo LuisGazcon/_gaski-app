@@ -1,0 +1,45 @@
+.button
+	box-sizing: border-box
+	display: flex
+	flex-direction: row
+	align-items: center
+	justify-content: center
+	width: auto
+	height: 3rem
+	border-radius: .75rem
+	font-weight: 600
+	border: none
+	outline: none
+	filter: none
+	transition: .125s all ease-in-out
+
+	&.primary
+		border: none
+		color: var(--quarternary)
+		background: var(--primary)
+
+	&.secondary
+		background: rgba(var(--primary-rgb), 0.25)
+		color: var(--primary)
+
+	&.primary-ghost
+		background: var(--base)
+		color: var(--primary)
+		border: 2px solid var(--primary)
+
+	&.error
+		background: rgba(var(--error-rgb), 0.25)
+		color: var(--error)
+
+	&.normal
+		color: var(--secondary)
+		border: 2px solid var(--secondary)
+		background: var(--base)
+
+	&:disabled
+		text-decoration: dashed
+		color: var(--tertiary)
+		background: var(--quarternary)
+
+	/** &:active:not(:disabled)
+		transform: scale(.8) **/
