@@ -1,0 +1,16 @@
+.alert
+    box-sizing: border-box
+    display: flex
+    align-items: center
+    padding: .5rem
+    min-height: 3rem
+    border-radius: .75rem
+    font-size: 1rem
+    font-weight: 300
+    background: var(--quarternary)
+
+    &.error
+        background: rgba(var(--error-rgb), .25)
+        border: 2px solid var(--error)
+        .message
+            color: var(--error)
