@@ -1,0 +1,41 @@
+:root
+	/* light mode*/
+	--light-base-rgb: 255, 255, 255
+	--light-secondary-rgb: 0, 0, 0
+	--light-tertiary-rgb: 190, 190, 190
+	--light-quarternary-rgb: 240, 240, 240
+
+	/* dark mode*/
+	--dark-base-rgb: 0, 0, 0
+	--dark-secondary-rgb: 255, 255, 255
+	--dark-tertiary-rgb: 40, 40, 40
+	--dark-quarternary-rgb: 20, 20, 20
+
+	/* accent colors */
+	--primary-rgb: 0, 85, 255
+	--success-rgb: 0, 200, 50
+	--error-rgb: 250, 50, 50
+	--warning-rgb: 250, 250, 0
+
+	--primary: rgb(var(--primary-rgb))
+	--secondary: rgb(var(--secondary-rgb))
+	--tertiary: rgb(var(--tertiary-rgb))
+	--quarternary: rgb(var(--quarternary-rgb))
+	--base: rgb(var(--base-rgb))
+	--error: rgb(var(--error-rgb))
+	--success: rgb(var(--success-rgb))
+	--warning: rgb(var(--warning-rgb))
+
+:root
+	--base-rgb: var(--light-base-rgb)
+	--secondary-rgb: var(--light-secondary-rgb)
+	--tertiary-rgb: var(--light-tertiary-rgb)
+	--quarternary-rgb: var(--light-quarternary-rgb)
+
+
+@media (prefers-color-scheme: dark)
+	:root
+		--base-rgb: var(--dark-base-rgb)
+		--secondary-rgb: var(--dark-secondary-rgb)
+		--tertiary-rgb: var(--dark-tertiary-rgb)
+		--quarternary-rgb: var(--dark-quarternary-rgb)
