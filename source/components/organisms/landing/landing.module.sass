@@ -1,0 +1,59 @@
+.landing
+    box-sizing: border-box
+    display: flex
+    flex-grow: 1
+    flex-direction: column
+    padding: 1rem
+
+    .logo-wrapper
+        display: flex
+        position: relative
+        &::after
+            display: block
+            background: var(--quarternary)
+            animation: 5s bg-morph ease-in-out infinite, 60s bg-rotation linear infinite
+            position: absolute
+            top: 0
+            left: 0
+            content: ''
+            display: block
+            height: 100%
+            width: 100%
+            z-index: -1
+        .logo
+            height: 8rem
+            margin: 4rem auto
+
+
+    .call-to-action
+        margin-top: auto
+        display: grid
+        grid-row-gap: 1rem
+        justify-self: flex-end
+
+        .action
+            box-sizing: border-box
+            display: flex
+            height: 3rem
+            align-items: center
+            justify-content: center
+            text-decoration: none
+            border-radius: .5rem
+
+
+@keyframes bg-morph
+    0%
+        border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%
+    50%
+        border-radius:  89% 32%
+    100%
+        border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%
+
+
+@keyframes bg-rotation
+    0%
+        transform: rotate(0deg) scale(.5)
+    50%
+        transform: rotate(180deg) scale(.75)
+    100%
+        transform: rotate(360deg) scale(.5)

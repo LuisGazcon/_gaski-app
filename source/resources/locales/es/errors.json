@@ -1,0 +1,13 @@
+{
+	"auth": {
+		"email-already-in-use": "La dirección de correo electrónico ya está en uso",
+		"username-already-in-use": "El nombre de usuario ya está en uso",
+		"phone-number-already-in-use": "El número de telefono ya está en uso",
+		"invalid-email": "La dirección de correo electrónica no es válida",
+		"user-not-found": "No se encontró una cuenta que coincida con el correo elctrónico",
+		"wrong-password": "La contraseña no es válida",
+		"too-many-requests": "Se excedió el numero máximo de peticiones, intente más tarde",
+		"email-not-verified": "La dirección de correo electrónico no ha sido verificada aún"
+	},
+	"database": {}
+}
