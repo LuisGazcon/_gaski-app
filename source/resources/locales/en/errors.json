@@ -1,0 +1,13 @@
+{
+	"auth": {
+		"email-already-in-use": "The provided e-mail address is already in use",
+		"username-already-in-use": "The provided username is already in use",
+		"phone-number-already-in-use": "The provided phone number is already in use",
+		"invalid-email": "The provided e-mail address is not valid",
+		"user-not-found": "We did'nt found any account that matches with the provided information",
+		"wrong-password": "The provided password is not valid",
+		"too-many-requests": "The maximum number of requests has been exceeded, try again later",
+		"email-not-verified": " The e-mail address has not been verified yet"
+	},
+	"database": {}
+}
