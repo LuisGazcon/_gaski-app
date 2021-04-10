@@ -1,5 +1,3 @@
-import auth from '.';
-
 export const createActions = ({ services: { authService } }) => {
 	const ActionTypes = {
 		LOG_IN: 'LOG_IN',
