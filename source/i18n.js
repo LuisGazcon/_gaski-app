@@ -7,6 +7,7 @@ import es from '@resources/locales/es/';
 i18n.use(LanguageDetector).init({
 	debug: process.env.NODE_ENV === 'development',
 	ns: ['common'],
+	fallbackLng: 'en',
 	defaultNS: 'common',
 	fallbackNS: 'common',
 	resources: {
@@ -39,7 +40,7 @@ i18n.use(LanguageDetector).init({
 		'es-VE': es,
 	},
 	detection: {
-		order: ['cookie', 'localStorage', 'sessionStorage'],
+		order: ['cookie', 'localStorage', 'sessionStorage', 'navigator'],
 		caches: ['cookie', 'localStorage'],
 		lookupCookie: 'i18next',
 		lookupLocalStorage: 'i18nextLng',

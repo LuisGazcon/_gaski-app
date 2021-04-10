@@ -4,6 +4,6 @@ import auth from './auth.json';
 
 export default {
 	common,
-	errors,
 	auth,
+	errors,
 };
