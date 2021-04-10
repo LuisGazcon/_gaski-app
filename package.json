@@ -10,7 +10,8 @@
 		"test": "jest",
 		"test:firebase": "firebase emulators:exec \"jest\"",
 		"clean:build": "rm -rf ./build",
-		"clean:cache": "npm cache clean --force"
+		"clean:cache": "npm cache clean --force",
+		"build:preview": "npm run build && firebase hosting:channel:deploy preview"
 	},
 	"keywords": [
 		"gaski",

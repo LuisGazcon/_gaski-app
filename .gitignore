@@ -9,4 +9,6 @@ build
 dist
 out
 
+.firebase
+
 *.log
