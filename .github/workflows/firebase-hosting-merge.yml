@@ -17,6 +17,7 @@ jobs:
         run: npm run build
         env:
           NODE_ENV: 'production'
+          PUBLIC_URL: 'https://gaski-app.web.app'
           FIRESTORE_EMULATOR_HOST: '${{ secrets.FIRESTORE_EMULATOR_HOST }}'
           FIREBASE_API_KEY: '${{ secrets.FIREBASE_API_KEY }}'
           FIREBASE_AUTH_DOMAIN: '${{ secrets.FIREBASE_AUTH_DOMAIN }}'
